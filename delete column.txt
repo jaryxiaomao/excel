@@ -1,0 +1,7 @@
+s = Array("xiaomao", 1)
+    For i = [iv1].End(xlToLeft).Column To 1 Step -1
+        For Each c In s
+            If Cells(1, i) = c Then Cells(1, i).EntireColumn.Delete
+        Next
+    Next
+    
