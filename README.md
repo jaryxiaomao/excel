@@ -1,12 +1,12 @@
 # excel使用的一个小技巧
 使用 宏 删除指定的列
 
-`s = Array("xiaomao", 1)<br>
-    For i = [iv1].End(xlToLeft).Column To 1 Step -1<br>
-        For Each c In s<br>
-            If Cells(1, i) = c Then Cells(1, i).EntireColumn.Delete<br>
-        Next<br>
-    Next`<br>
+`s = Array("xiaomao", 1)
+    For i = [iv1].End(xlToLeft).Column To 1 Step -1
+        For Each c In s
+            If Cells(1, i) = c Then Cells(1, i).EntireColumn.Delete
+        Next
+    Next`
     
     
     
